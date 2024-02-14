@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    /* margin: 0 4rem; */
+}
+header {
+    background-color: #022424;
+}
+
+.hero-header {
+    /* display: flex; */
+    margin-right: 4rem;
+    font-size: 2rem;
+    font-family: "Playfair Display", serif;
+    
+}
+
+.hero-header h3 {
+    /* line-height: 1; */
+    margin-bottom: 1.1rem;
+}
+
+.hero-name {
+    /* line-height: 1.5; */
+}
+
+.hero-name p {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
