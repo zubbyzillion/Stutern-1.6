@@ -10,25 +10,31 @@ body {
     height: 100vh;
     /* margin: 0 4rem; */
 }
-header {
-    background-color: #022424;
-}
 
 .hero-header {
-    /* display: flex; */
+    display: flex;
+    align-items: center;
+    align-content: center;
     margin-right: 4rem;
     font-size: 2rem;
     font-family: "Playfair Display", serif;
+    background-color: #022424;
+    height: 100%;
     
+    
+}
+
+.hero-name {
+    /* line-height: 1.5; */
+    align-items: center;
+    align-content: center;
+    margin: 0 4rem;
+    color: aqua;
 }
 
 .hero-header h3 {
     /* line-height: 1; */
     margin-bottom: 1.1rem;
-}
-
-.hero-name {
-    /* line-height: 1.5; */
 }
 
 .hero-name p {
