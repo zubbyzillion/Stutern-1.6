@@ -90,7 +90,7 @@ a {
     color: #022424;
 }
 
-@media (max-width: 340px) {
+@media (max-width: 425px) {
     .container {
         display: block;
         width: 100%;
