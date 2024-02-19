@@ -22,6 +22,14 @@ html {
     width: 40%;
 }
 
+.hero-name h3 {
+    font-family: "Playfair Display", serif;
+}
+
+.hero-name p {
+    font-family: "Roboto", sans-serif;
+}
+
 .navigation-link {
     display: block;
 }
@@ -29,6 +37,15 @@ html {
 .main {
     background-color: aqua;
     width: 60%;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    font-family: "Roboto", sans-serif;
+}
+
+.contact a {
+    color: #022424;
 }
 
 @media (max-width: 22em) {
@@ -39,7 +56,7 @@ html {
 
     .hero-header {
         width: 100%;
-        padding: 2.4rem;
+        padding: 2.4rem 0;
         text-align: center;
     }
 
@@ -76,8 +93,29 @@ html {
     }
 
     .main {
-        padding: 2.4rem;
+        padding: 2.4rem 0;
         width: 100%;
         height: 100%;
     }
+
+    .details {
+        padding: 2.4rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+
+    .details div {
+        padding-bottom: 1.2rem;
+    }
+
+    .skills-list {
+        margin-top: 1.4rem;
+    }
+    .skills-list ul {
+        display: flex;
+        gap: 1.4rem;
+        list-style-type: none;
+    }
+
+
 }
